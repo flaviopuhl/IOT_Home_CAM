@@ -85,7 +85,7 @@ void setup() {
   WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0); //disable brownout detector
  
   Serial.begin(115200);
-  delay(2000);
+  delay(3000);
 
   Serial.println();
 
